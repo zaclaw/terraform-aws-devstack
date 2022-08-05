@@ -134,7 +134,7 @@ resource "aws_s3_bucket" "private_s3_bucket" {
 }
 
 resource "aws_s3_bucket_acl" "private_acl" {
-  bucket = aws_s3_bucket.b.id
+  bucket = aws_s3_bucket.private_s3_bucket.id
   acl    = "private"
 }
 
