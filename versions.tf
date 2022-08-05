@@ -2,7 +2,7 @@ terraform {
   cloud {
     organization = "zac-corp"
     workspaces {
-      name = "hashi_demo2"
+      name = "dev_stack_demo"
     }
   }
   required_providers {
